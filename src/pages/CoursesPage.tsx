@@ -6,6 +6,7 @@ import {
   Calculator,
   UsersRound,
   Laptop,
+  Hotel,
   CheckCircle2,
   BookOpen,
   Briefcase,
@@ -40,6 +41,8 @@ export const CoursesPage: React.FC<CoursesPageProps> = ({
         return <TrendingUp className="w-5 h-5" />;
       case 'Calculator':
         return <Calculator className="w-5 h-5" />;
+      case 'Hotel':
+        return <Hotel className="w-5 h-5" />;
       case 'UsersRound':
         return <UsersRound className="w-5 h-5" />;
       case 'Laptop':

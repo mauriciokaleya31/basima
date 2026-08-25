@@ -42,7 +42,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="lg:col-span-4 space-y-4">
             <button
               onClick={() => handleNav('inicio')}
-              className="inline-block text-left cursor-pointer focus:outline-none"
+              className="inline-flex items-center p-2 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all text-left cursor-pointer focus:outline-none border border-slate-200"
               id="footer-logo-btn"
             >
               {!logoError ? (
@@ -51,18 +51,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   alt="Complexo Escolar Basima do Saber"
                   referrerPolicy="no-referrer"
                   onError={() => setLogoError(true)}
-                  className="h-12 w-auto object-contain brightness-0 invert"
+                  className="h-12 w-auto object-contain max-w-[200px]"
                 />
               ) : (
-                <div className="flex items-center gap-2.5">
+                <div className="flex items-center gap-2.5 px-2 py-1">
                   <div className="w-10 h-10 rounded-xl bg-blue-900 flex items-center justify-center text-amber-400 font-bold text-lg border border-amber-400/40">
                     B
                   </div>
                   <div>
-                    <span className="block font-bold text-white text-base">
+                    <span className="block font-bold text-slate-900 text-sm">
                       BASIMA DO SABER
                     </span>
-                    <span className="text-[10px] font-medium text-amber-400 tracking-wider uppercase">
+                    <span className="text-[10px] font-semibold text-blue-900 tracking-wider uppercase">
                       Complexo Escolar
                     </span>
                   </div>

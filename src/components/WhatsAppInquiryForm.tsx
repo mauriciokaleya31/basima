@@ -198,11 +198,10 @@ export const WhatsAppInquiryForm: React.FC<WhatsAppInquiryFormProps> = ({
                     <option value="Ensino Primário (1ª à 6ª Classe)">Ensino Primário (1ª à 6ª Classe)</option>
                     <option value="I Ciclo do Ensino Secundário (7ª à 9ª Classe)">I Ciclo do Ensino Secundário (7ª à 9ª Classe)</option>
                     <option value="II Ciclo do Ensino Secundário Geral (10ª à 12ª/13ª Classe)">II Ciclo Geral (10ª à 12ª/13ª Classe)</option>
-                    <option value="Técnico: Administração e Gestão de Empresas">Técnico: Administração e Gestão</option>
-                    <option value="Técnico: Gestão Financeira">Técnico: Gestão Financeira</option>
-                    <option value="Técnico: Contabilidade">Técnico: Contabilidade</option>
-                    <option value="Técnico: Gestão de Recursos Humanos">Técnico: Recursos Humanos</option>
-                    <option value="Técnico: Informática de Gestão & Tecnologias">Técnico: Informática de Gestão</option>
+                    <option value="Técnico: Administração e Gestão de Empresas">Técnico: Administração e Gestão de Empresas</option>
+                    <option value="Técnico: Gestão Financeira e Contabilidade">Técnico: Gestão Financeira e Contabilidade</option>
+                    <option value="Técnico: Gestão de Hotelaria e Turismo">Técnico: Gestão de Hotelaria e Turismo</option>
+                    <option value="Técnico: Gestão de Recursos Humanos">Técnico: Gestão de Recursos Humanos</option>
                     <option value="Outro / Informações Gerais">Outro / Informações Gerais</option>
                   </select>
                 </div>

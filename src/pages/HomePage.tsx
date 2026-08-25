@@ -202,7 +202,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 Um Ensino de Qualidade para um Futuro de Sucesso
               </h2>
               <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
-                Preparamos os nossos estudantes com competências técnicas sólidas em Administração, Contabilidade, Finanças, Recursos Humanos e Informática.
+                Preparamos os nossos estudantes com competências técnicas sólidas em Administração e Gestão de Empresas, Gestão Financeira e Contabilidade, Gestão de Hotelaria e Turismo, e Gestão de Recursos Humanos.
               </p>
               <div className="pt-2 flex flex-wrap gap-3">
                 <button
