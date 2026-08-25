@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return originalFetch;
+            },
+            set: function(fn) {
+              originalFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          // Graceful fallback if window.fetch cannot be reconfigured
+        }
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complexo Escolar Basima do Saber | Educação, Excelência e Futuro</title>
+    <meta name="description" content="Complexo Escolar Basima do Saber em Luanda. Do Pré-Escolar ao Ensino Técnico-Profissional. Educar para transformar com excelência e valores." />
+    <meta property="og:title" content="Complexo Escolar Basima do Saber" />
+    <meta property="og:description" content="Educar para transformar. Construímos conhecimento, valores e competências para preparar os nossos alunos para o futuro." />
+    <meta property="og:image" content="https://visa.onlyvibes.online/wp-content/uploads/2026/08/LOGITOPO-.png" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="font-sans antialiased text-slate-800 bg-white selection:bg-amber-400 selection:text-blue-950">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

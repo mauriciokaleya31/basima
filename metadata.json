@@ -1,0 +1,6 @@
+{
+  "name": "Complexo Escolar Basima do Saber",
+  "description": "Site institucional moderno e responsivo do Complexo Escolar Basima do Saber em Luanda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
